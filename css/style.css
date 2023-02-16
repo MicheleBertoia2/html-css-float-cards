@@ -4,11 +4,38 @@
   box-sizing: border-box;
 }
 
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 body {
   font-family: 'Arimo', sans-serif;
   font-family: 'Fredoka', sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
 h1 {
   color: rgb(192, 29, 132)
+}
+
+/* HEADER */
+
+.team-title {
+  height: 100px;
+}
+
+.team-title h1 {
+  text-align: center;
+  line-height: 100px;
+  transform: translate(-50 -50);
+}
+
+.team-parag p {
+  text-align: center;
 }
