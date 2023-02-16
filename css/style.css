@@ -43,16 +43,43 @@ h1 {
 /* MAIN */
 
 main .row {
-  border: 1px solid black;
   margin: 30px 0;
   height: 120px;
 }
 
 main .col {
-  width: calc(100% /3);
+  width: 30%;
   height: 100%;
-  background-color: blue;
+  background-color: rgb(0, 0, 0);
   border: 1px solid red;
   float: left;
-  padding: 5px;
+  margin: 0 14px;
+}
+
+main .col img {
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+.col .card-text {
+  color: white;
+}
+.col .card-text h3{
+  font-size: 1.1rem;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.col .card-text span{
+  display: inline-block;
+}
+
+.col .card-text .role {
+  margin-bottom: 15px;
+}
+
+.col .card-text .mail{
+  font-size: .8rem;
+  color: lightskyblue;
 }
